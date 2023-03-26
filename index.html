@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa em HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1> Dados Pessoais</h1>
+
+        <form action= "destino.html" method="get">
+            <label for="nome_id">Nome:</label>  
+            <input type="text" name="Nome" id="nome_id" placeholder="Digite o seu nome completo"><br><br>
+            <label for="email_id">Email:</label>
+            <input type="email" name="email" id="email_id"><br><br>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo" style="width:90px;"><option selected="selected" value="Masculino">Masculino</option><option value="Feminino">Feminino</option></select></td><br><br>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select><br><br>
+            <label for="cidade_id">Cidade:</label>
+            <input type="text" name="cidade" id="cidade_id"><br><br> 
+            <form>
+                <label for="comentario">Deixe seu comentário:</label>
+                <br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50">
+                </textarea>
+            </form>
+            <form id="frmButton">
+            <input type="submit" id="enviar_id" value="Enviar"> <br><br>      
+
+    </main>
+</body>
+</html>
