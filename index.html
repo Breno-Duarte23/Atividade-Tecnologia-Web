@@ -18,7 +18,9 @@
             <label for="email_id">Email:</label>
             <input type="email" name="email" id="email_id"><br><br>
             <label for="sexo">Sexo:</label>
-            <select name="sexo" id="sexo" style="width:90px;"><option selected="selected" value="Masculino">Masculino</option><option value="Feminino">Feminino</option></select></td><br><br>
+            <select name="sexo" id="sexo" style="width:90px;">
+                <option selected="selected" value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option></select></td><br><br>
             <label for="estado">Estado:</label>
             <select id="estado" name="estado">
                 <option value="AC">Acre</option>
@@ -52,12 +54,29 @@
             </select><br><br>
             <label for="cidade_id">Cidade:</label>
             <input type="text" name="cidade" id="cidade_id"><br><br> 
+
+
+
+            <label for="interesse_id">Quais desses cursos mais te interessam:</label><br>
+                <input type="checkbox" name="interesse" id="administracao_id">Administração<br>
+                <input type="checkbox" name="interesse" id="psicologia_id">Psicologia<br>
+                <input type="checkbox" name="interesse" id="direito_id">Direito<br>
+                <input type="checkbox" name="interesse" id="computacao_id">Ciência da Computação<br>
+                <input type="checkbox" name="interesse" id="veterinaria_id">Medicina Veterinaria<br><br>
+
+            <label for="interesse_id">Quais desses cursos mais te interessam:</label><br>
+            <input type="radio" name="interesse" id="administracao_id">Administração<br>
+            
+
+
+
             <form>
                 <label for="comentario">Deixe seu comentário:</label>
                 <br>
                 <textarea id="comentario" name="comentario" rows="4" cols="50">
                 </textarea>
             </form>
+        </form>
             <form id="frmButton">
             <input type="submit" id="enviar_id" value="Enviar"> <br><br>      
 
